@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1bcb1fb516.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+</head>
+<body>
+
+  <section class="containers">
+    <div class="hamburger-menu">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <section class="one">
+     <h2 class="heading">
+       please subscribe to get updates
+     </h2>
+     <p> signup with your email to get latest updates 
+     </p>
+     <form>
+       <input  onkeyup="check()" type='text' placeholder="enter your email" id="email"><br/>
+       <div class="error-msg">Please Enter The Correct Email</div>
+       <div class="correct-msg">Email Corrected</div>
+       <button class="btn" role="button">
+         subscribe
+       </button>
+     </form>
+     </section>
+   </section>
+
+  <header>
+    <div class="container">
+      <img src="images/logo.svg" alt="">
+      <button class="tryit" onclick="loading()">Try it Free</button>
+    </div>
+    <div class="main">
+      <div class="main-info">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <button class="get-start-btn"wqq>Get Started For Free</button>
+      </div>
+      <div class="main-img">
+        <img src="images/illustration-mockups.svg" alt="">
+      </div>
+    </div>
+  </header>
+
+  <article>
+    <div class="card-list">
+      <div class="card-item">
+        <div class="card-img">
+          <img src="images/illustration-grow-together.svg" alt="">
+        </div>
+        <div class="card-info">
+          <h1>Grow Together</h1>
+          <p>Generate meaningful disccusions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out with a feedback form.</p>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <div class="card-img img2">
+          <img src="images/illustration-flowing-conversation.svg" alt="">
+        </div>
+        <div class="card-info info2">
+          <h1>Flowing Conversations</h1>
+          <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <div class="card-img">
+          <img src="images/illustration-your-users.svg" alt="">
+        </div>
+        <div class="card-info">
+          <h1>Your Users</h1>
+          <p>It takes no time at all to integrate Huddle with your app's authentication solution. This meansm once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div class="top-footer">
+      <div class="top-footer-card">
+        <h1>Ready To Build Your Community</h1>
+        <button class="get-start-btn">Get Started For Free</button>
+      </div>
+    </div>
+    <div class="bottom-footer">
+      <div class="footer-title">
+        <i class="fa-regular fa-comment-dots"></i>
+        <h1>Huddle</h1>
+      </div>
+      <div class="main-footer-contact">
+      <div class="footer-contact">
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem inventore, libero omnis distinctio ullam ipsa.</p>
+        </div>
+        <div class="phone-nb">
+          <i class="fa-solid fa-phone-volume"></i>
+          <p>+1-543-123-4567</p>
+        </div>
+        <div class="email">
+          <i class="fa-regular fa-envelope"></i>
+          <p>example@huddle.com</p>
+        </div>
+      </div>
+      <div class="contact-list">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">What We Do</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+        <ul class="career">
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="social-icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+      <div class="copyright">
+        <p> &copy; Copyright 2018 Huddle. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
